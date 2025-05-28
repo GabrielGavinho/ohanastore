@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #b8b3e9, #e09191);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 50px;
+}
+
+#home:hover, #serviços:hover, #produtos:hover, #contatos:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(66, 65, 65, 0.5);
+    transition: 0.8s;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#texto{
+  background-color: white; /* Cor de fundo branca */
+  padding: 20px; /* Espaçamento interno para o texto */
+  border-radius: 8px; /* Bordas arredondadas (opcional) */
+
+  /* Removido margin: 20px auto; para não centralizar */
+  margin-top: 20px; /* Mantém a margem superior */
+  margin-bottom: 20px; /* Mantém a margem inferior */
+  margin-left: 20px; /* Adiciona uma margem à esquerda para espaçamento */
+  margin-right: auto; /* Opcional: empurra a caixa para a esquerda */
+  max-width: 400px; /* Largura máxima da caixa (opcional) */
+  text-align: justify; /* Alinhar texto de forma justificada (opcional) */
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+#texto:hover{
+     box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+    
+}
+
+#quem{
+    font-size: 20px ;
+    text-align: center;
+
+}
+
+
+ 
