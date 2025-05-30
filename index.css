@@ -21,7 +21,7 @@ body{
     cursor: pointer;
     color: white;
     background-color: rgba(66, 65, 65, 0.5);
-    transition: 0.8s;
+    transition: 0.8s ease-in-out;
     border-radius: 5px;
     padding: 7px;
 }
